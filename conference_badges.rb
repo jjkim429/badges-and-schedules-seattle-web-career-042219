@@ -14,6 +14,7 @@ def assign_rooms(array)
   counter = 1
   array.each { |element| rooms << "Hello, #{element}!  You'll be assigned to room #{counter}!" }
   counter += 1
+  rooms
 end
 
 def printer
