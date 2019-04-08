@@ -6,6 +6,7 @@ end
 def batch_badge_creator(array)
   badges = []
   array.each { |element| badges << "Helly, my name is #{element}." }
+  badges
 end
 
 def assign_rooms(speakers)
