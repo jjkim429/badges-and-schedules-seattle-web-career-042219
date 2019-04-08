@@ -11,7 +11,8 @@ end
 
 def assign_rooms(array)
   rooms = []
-  array.each_with_index { |element,
+  array.each_with_index { |element, index| rooms << "Hello, #{element}!  You'll be assigned to room #{index}!"
+  rooms
 end
 
 def printer
