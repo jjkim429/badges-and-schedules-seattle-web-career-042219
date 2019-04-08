@@ -13,7 +13,7 @@ def assign_rooms(array)
   rooms = []
   counter = 1
   array.each do |element| 
-    rooms.push("Hello, #{element}!  You'll be assigned to room #{counter}!")
+    rooms.push("Hello, #{element}! You'll be assigned to room #{counter}!")
     counter += 1
   end
   return rooms
