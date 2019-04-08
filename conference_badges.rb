@@ -11,7 +11,7 @@ end
 
 def assign_rooms(array)
   rooms = []
-  array.each_with_index {
+  array.each_with_index { |element,
 end
 
 def printer
