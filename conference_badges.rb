@@ -11,7 +11,9 @@ end
 
 def assign_rooms(array)
   rooms = []
-  array.each_with_index { |element, index| rooms << "Hello, #{element}!  You'll be assigned to room #{index}!" }
+  counter = 1
+  array.each_with_index { |element, index| rooms << "Hello, #{element}!  You'll be assigned to room #{counter}!" }
+  counter += 1
   rooms
 end
 
