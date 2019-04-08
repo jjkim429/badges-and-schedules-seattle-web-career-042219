@@ -9,9 +9,9 @@ def batch_badge_creator(array)
   badges
 end
 
-def assign_rooms(speakers)
+def assign_rooms(array)
   rooms = []
-  
+  array.each_with_index {
 end
 
 def printer
